@@ -107,6 +107,26 @@ All that is necessary is a brief title of what is to be achieved.
 
 The developer records central decisions, observations, hindrances etc during the cycle. Write it to support the later "Cycle Criticism".
 
+Guidelines for the notes:
+
+Write in present-tense objective style.
+
+- What was done? Why? What impact did it have?
+
+- `dp` for decision points,
+- `po` for positive outcome,
+- `no` for negative outcome,
+- `//` for comment,,
+- `cc` for criticism (for cycle criticism).
+
+| Tag  | Meaning                 | Use For                                          |
+| ---- | ----------------------- | ------------------------------------------------ |
+| `dp` | Decision Point          | Key choices, forks, trade-offs                   |
+| `po` | Positive Outcome        | Completed steps, successful implementations      |
+| `no` | Negative Outcome        | Bugs, wasted time, failed ideas, regressions     |
+| `cc` | Cycle Criticism Trigger | Self-reflective note flagged for later criticism |
+| `//` | Comment/Note            | Neutral observations, clarifications, or context |
+
 ### Cycle Finalize
 
 The last comments should be a "Cycle Criticism". The goal is to analyze the following:
